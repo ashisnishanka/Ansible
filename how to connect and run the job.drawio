@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T05:58:13.441Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.2" etag="sgmLbvJ7pBz6wkEOE4en" type="github"><diagram id="_9QG9l27_A06eGRPr5m6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-29T06:29:45.756Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3-Rn1j3iji7i2ecrHC8L" version="14.8.2" type="github">
+  <diagram id="_9QG9l27_A06eGRPr5m6" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nnemeErVQA7nUBz_sTqq-1" value="ANSIBLE CONTROLER&amp;nbsp;&lt;br&gt;PYTHON INSTALL&lt;br&gt;YAML SCRIPTS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-3" value="&lt;br&gt;HOST&lt;br&gt;PYTHON INSTALL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-4" value="HOST&lt;br&gt;PYTHON INSTALL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99FF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-7" value="SSH CONNECTION" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-8" value="SSH CONNECTION" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="nnemeErVQA7nUBz_sTqq-1" target="nnemeErVQA7nUBz_sTqq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="nnemeErVQA7nUBz_sTqq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="210" as="sourcePoint" />
+            <mxPoint x="630" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnemeErVQA7nUBz_sTqq-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;write the playbook.yaml in ansible controller machine&amp;nbsp; and run the playbook&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;this will create a little python package in backend using python package on the ansible controller machine&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;through SSH connection this python package is copied to the host machine&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;python package is exucuted on the host and config will apply&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;after config apply that particular package is deleted from host machine ,to making the clean&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="810" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
